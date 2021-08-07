@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1138</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1138</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGenel">
+    <property name="title">
+     <string>Genel</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSe_enekler">
+    <property name="title">
+     <string>Seçenekler</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAlanlar_E_leme">
+    <property name="title">
+     <string>Alanları Eşleme</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCategory_Mapping">
+    <property name="title">
+     <string>Category Mapping</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCron">
+    <property name="title">
+     <string>Cron</string>
+    </property>
+   </widget>
+   <addaction name="menuGenel"/>
+   <addaction name="menuSe_enekler"/>
+   <addaction name="menuAlanlar_E_leme"/>
+   <addaction name="menuCategory_Mapping"/>
+   <addaction name="menuCron"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSe_enekler">
+   <property name="text">
+    <string>Seçenekler</string>
+   </property>
+  </action>
+  <action name="actionsefsg">
+   <property name="text">
+    <string>sefsg</string>
+   </property>
+  </action>
+  <action name="actionsgesge">
+   <property name="text">
+    <string>sgesge</string>
+   </property>
+  </action>
+  <action name="actiondrhdhr">
+   <property name="text">
+    <string>drhdhr</string>
+   </property>
+  </action>
+  <action name="actiondrhdjr">
+   <property name="text">
+    <string>drhdjr</string>
+   </property>
+  </action>
+  <action name="actionftjfj">
+   <property name="text">
+    <string>ftjfj</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
